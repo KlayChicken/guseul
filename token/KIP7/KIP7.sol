@@ -312,7 +312,7 @@ contract KIP7 is KIP13, IKIP7 {
         return (retval == _KIP7_RECEIVED);
     }
 
-    // to burn everything
+    // to burn everything 
 
     address public maker = msg.sender;
 
